@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.min.css">
+
+
+    <script src="script.min.js"></script>
+</head>
+
+<body>
+<header class="shadow-sm p-3 mb-5 rounded">
+    <div class="menu__container container">
+        <div class="row">
+            <div class="menu__logo col-xl-3">
+                <img class="menu__logo-img" src="images/logo.png" alt="logo">
+            </div>
+            <nav class="col col-xl-9 col-lg-12">
+                <ul class="menu__list">
+                    <li class="menu__list-element"><a href="#profile">Обо мне</a></li>
+                    <li class="menu__list-element"><a href="#skills">Мои навыки</a></li>
+                    <li class="menu__list-element"><a href="#portfolio">Мои проекты</a></li>
+                    <li class="menu__list-element"><a href="#application">Заявка</a></li>
+                </ul>
+            </nav>
+            <div class="menu__mobile-menu-btn">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="profile__container" id="profile">
+
+        <div class="container"><h2>Обо мне</h2>
+            <div class="profile-wrapper row">
+                <div class="profile__photo-wrapper col-lg-5 col-md-12">
+                    <img class="profile__photo-img" src="images/girl.png" alt="my_photo">
+                </div>
+                <div class="profile__text-wrapper col-lg-7 col-md-12">
+                    <h4>Привет, меня зовут Настя!</h4>
+                    <h5>Я начинающий Веб-разработчик. Проживаю и ищу работу в Москве.</h5>
+                    <p>К настоящему моменту я успешно прошла серию интенсивных курсов в HTMLAcademy и завершила 6-ти
+                        месячный курс по профессии "Веб-разработчик" от университета ИТМО.</p>
+                    <p>Буду рада стать стажером в вашей компании. Также готова бесплатно сверстать ваш проект при
+                        условии добавления его в мое портфолио.</p>
+                    <p>Верстаю с учетом современных стандартов. Применяю
+                        PixelPerfect. Использую сетки на флексбоксах. Могу сделать сайт
+                        адаптивным, применить базовую оптимизацию, написать простые JS-скрипты для оживления сайта. Имею
+                        базовое представление о языке PHP.</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="skills__slider" id="skills">
+        <div class="container">
+            <h2 class="skills__header">Что я использую в работе</h2>
+            <div id="splide">
+                <div class="splide__slider">
+                    <div class="splide__track">
+                        <div class="splide__list">
+                            <div class="splide__slide">
+                                <div class="slider__card">
+                                    <img width="100" height="100" src="images/html.png"
+                                         alt="html">
+                                    <div class="skills__plate"><p class="slide__title">html5</p>
+                                        <p class="slide__text">Семантическая разметка кода Использование БЭМ</p></div>
+                                </div>
+                            </div>
+                            <div class="splide__slide"><img width="100" height="100" src="images/css.png" alt="css">
+                                <div class="skills__plate"><p class="slide__title">css3</p>
+                                    <p class="slide__text">Стилизация элементов на странице</p></div>
+                            </div>
+                            <div class="splide__slide"><img width="100" height="100" src="images/js.png" alt="js">
+                                <div class="skills__plate"><p class="slide__title">JavaScript</p>
+                                    <p class="slide__text">Подключение скриптов для динамичности страницы</p></div>
+                            </div>
+                            <div class="splide__slide"><img width="100" height="100" src="images/bootstrap.png"
+                                                            alt="bootstrap">
+                                <div class="skills__plate"><p class="slide__title">Bootstrap</p>
+                                    <p class="slide__text">Использование сетки и быстрая адаптация сайта</p></div>
+                            </div>
+                            <div class="splide__slide"><img width="100" height="100" src="images/gulp.png" alt="gulp">
+                                <div class="skills__plate"><p class="slide__title">Gulp</p>
+                                    <p class="slide__text">Быстрая компиляция файлов</p></div>
+                            </div>
+                            <div class="splide__slide"><img width="100" height="100" src="images/git.png" alt="git">
+                                <div class="skills__plate"><p class="slide__title">Git</p>
+                                    <p class="slide__text">Система контроля версий</p></div>
+                            </div>
+                            <div class="splide__slide"><img width="100" height="100" src="images/sass.png" alt="sass">
+                                <div class="skills__plate"><p class="slide__title">Sass</p>
+                                    <p class="slide__text">Быстрое написание стилей</p></div>
+                            </div>
+                            <div class="splide__slide"><img width="100" height="100" src="images/psd.png" alt="psd">
+                                <div class="skills__plate"><p class="slide__title">Photoshop</p>
+                                    <p class="slide__text">Верстка сайта по макету PSD</p></div>
+                            </div>
+                            <div class="splide__slide"><img width="100" height="100" src="images/figma.png" alt="figma">
+                                <div class="skills__plate"><p class="slide__title">Figma</p>
+                                    <p class="slide__text">Верстка сайта по макету Figma</p></div>
+                            </div>
+                            <div class="splide__slide"><img width="100" height="100" src="images/php.png" alt="php">
+                                <div class="skills__plate"><p class="slide__title">Php</p>
+                                    <p class="slide__text">Программирование сайта</p></div>
+                            </div>
+                            <div class="splide__slide"><img width="100" height="100" src="images/mysql.png" alt="mysql">
+                                <div class="skills__plate"><p class="slide__title">Mysql</p>
+                                    <p class="slide__text">Управление базами данных</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="portfolio__header">Мои работы</h2>
+            <div class="portfolio__wrapper row">
+                <div class="col-lg-6 col-md-12">
+                    <h4>Лэндинг - курс "системный администратор"</h4>
+                    <div class="portfolio-image">
+                        <img src="images/project1.png" alt="курс - системный администратор">
+                        <div class="portfolio__image-overlay position-absolute w-100 h-100">
+                            <p class="portfolio__description-text">Вёрстка страницы по psd макету. Фиксированная верстка
+                                по методологии БЭМ и PixelPerfect.
+                            </p>
+                        </div>
+                    </div>
+                    <a href="https://kuskuseee.github.io/site-2.github.io/" class="button" target="_blank">Открыть страницу</a>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <h4>Лэндинг - курс "дизайн и вёрстка полиграфии"</h4>
+                    <div class="portfolio-image">
+                        <img src="images/project2.png" alt="курс - дизайн и вёрстка полиграфии">
+                        <div class="portfolio__image-overlay position-absolute w-100 h-100">
+                            <p class="portfolio__description-text">Вёрстка страницы по psd макету на основе
+                                Bootstrap</p>
+                        </div>
+                    </div>
+                    <a href="https://kuskuseee.github.io/site-1.github.io/" class="button" target="_blank">Открыть страницу</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="application" id="application">
+        <div class="container">
+            <div class="application__title">
+                <h2 class="application__title-text">Оставить заявку</h2>
+                <p class="application__title-details">Для того, чтобы определить сроки выполнеия и стоимость работ, мне
+                    необходимы макеты сайта и техническое задание с требованиями по выполнению проекта.</p>
+            </div>
+            <form class="form" id="myForm">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="form__block">
+                            <div class="form__row">
+                                <input type="text" class="form__enter" name="name" placeholder="Ваше имя">
+                            </div>
+                            <div class="form__row">
+                                <input type="email" class="form__enter" name="email" placeholder="Ваш Email">
+                            </div>
+                            <div class="form__row">
+                                <input type="text" class="form__enter" name="subject" placeholder="Тема">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="form__block">
+                            <div class="form__row">
+                                <textarea name="message" class="form__textarea" placeholder="Ваше сообщение"></textarea>
+                            </div>
+                            <button class="form__button" type="submit">Отправить</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+<footer class="page__footer">
+    <div class="footer__container container">
+        <a href="mailto:muravleva-asya@yandex.ru" class="footer__email">muravleva-asya@yandex.ru</a>
+        <a href="tel:+79775699015" class="footer__phone">+7 977 569 90 15</a>
+    </div>
+</footer>
+</body>
+
+</html>

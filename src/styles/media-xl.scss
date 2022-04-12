@@ -1,0 +1,17 @@
+/* 1200 < screen < 1400 */
+@media (max-width: 1400px) {
+  .menu__logo {
+    display: none;
+  }
+  .menu__list {
+    display: none;
+    padding-left: 0;
+
+  }
+  .menu__mobile-menu-btn {
+    display: block;
+  }
+  li.menu__list-element {
+    margin-left: 0;
+  }
+}
